@@ -72,6 +72,6 @@ This lab provided hands-on experience with AWS IAM by demonstrating how organiza
 
 
 ## Author
-**Name:** Your Name and (Reg No)
+**Name:** HARSHIDA K S (212224040108)
 **Course:** Introduction to Cloud Computing  
 
