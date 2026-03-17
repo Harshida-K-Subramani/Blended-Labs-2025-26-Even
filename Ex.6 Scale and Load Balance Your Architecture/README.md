@@ -66,14 +66,29 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ## Workflow (To be filled by Student)
 
-Describe step-by-step how you performed this experiment in your own words.
-
----
+1. Logged into the AWS Management Console and reviewed the existing EC2 architecture created in previous labs.
+2. Created a Launch Template by selecting an AMI, instance type, key pair, security group, and added user data for application setup.
+3. Configured an Auto Scaling Group (ASG) using the launch template and set minimum, desired, and maximum number of instances.
+4. Created an Application Load Balancer (ALB) and configured listeners and a target group.
+5. Attached the Auto Scaling Group to the target group so that traffic is distributed across instances.
+6. Set up scaling policies using CloudWatch alarms based on CPU utilization (scale out and scale in conditions).
+7. Generated traffic to test the system and observed automatic scaling and load balancing across EC2 instances.
+8. Verified fault tolerance by stopping an instance and confirming that the ASG launched a new instance automatically.
 
 ## Output Screenshots 
 
+<img width="1920" height="1080" alt="cc6op1" src="https://github.com/user-attachments/assets/c77bedf8-f361-47cb-ba85-14adff91cb23" />
 
----
+<img width="1920" height="1080" alt="cc6op2" src="https://github.com/user-attachments/assets/d661dbe9-3604-4b68-b71d-2b22498d1cb5" />
+
+<img width="1920" height="1080" alt="cc6op3" src="https://github.com/user-attachments/assets/d688f540-d610-4921-b944-ac1c15490648" />
+
+<img width="1920" height="1080" alt="cc6op4" src="https://github.com/user-attachments/assets/9e8bc65c-b3e0-472b-981a-f7eb5c2a6296" />
+
+<img width="1920" height="1080" alt="cc6op5" src="https://github.com/user-attachments/assets/6b76ed8d-580b-49c5-aea6-8c6c6e4700e4" />
+
+<img width="1920" height="1080" alt="cc6op6" src="https://github.com/user-attachments/assets/4797cfad-d667-49a4-919f-99dafc009773" />
+
 
 
 ## Result
