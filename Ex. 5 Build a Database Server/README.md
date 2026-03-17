@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: HARSHIDA K S
+* **Register Number**: 212224040108
+* **Date of Submission**: 17.03.2026
 
 ---
 
@@ -82,33 +82,35 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
+1. Logged into the AWS Management Console and launched a new EC2 instance using Amazon Linux 2 AMI, selected instance type, created key pair, and configured security group.
+2. Modified the security group to allow SSH (port 22) and MySQL port (3306) for database access.
+3. Connected to the EC2 instance using SSH from my local system using the key pair.
+4. Installed the MySQL database server using package manager commands (sudo yum install mysql-server).
+5. Started the MySQL service and enabled it, then secured the installation by setting a root password and configuring basic settings.
+6. Created a sample database and table using SQL commands and inserted sample records.
+7. Tested the database by running queries to retrieve data and verified that the database server was working correctly.
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="Screenshot 2026-03-12 103703" src="https://github.com/user-attachments/assets/22114468-173f-4d2b-87fa-1d606004b66c" />
+
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="Screenshot 2026-03-12 104208" src="https://github.com/user-attachments/assets/7c7dac85-6819-4f7c-a13b-6d8603f37e93" />
+
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="Screenshot 2026-03-12 104408" src="https://github.com/user-attachments/assets/76bf9042-bd96-485c-b914-8eb120698562" />
+
 
 ---
 
