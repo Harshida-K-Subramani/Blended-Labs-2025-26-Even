@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: HARSHIDA K S
+* **Register Number**: 212224040108
+* **Date of Submission**: 17.03.2026
 
 ---
 
@@ -96,33 +96,34 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
+1. Logged into the AWS Management Console and navigated to the EC2 dashboard to explore available services like instances, AMIs, and security groups.
+2. Launched a new EC2 instance using Amazon Linux 2 AMI, selected t2.micro instance type, created a key pair, and configured basic settings.
+3. Configured the security group to allow SSH (port 22) from my IP and HTTP (port 80) from anywhere.
+4. Connected to the EC2 instance using SSH from the terminal using the key pair file and verified successful login.
+5. Performed instance operations such as stop, start, and reboot, and observed the status changes in the console.
+6. Monitored the instance using the Monitoring tab and checked metrics like CPU utilization and network activity.
+7. Finally, terminated the EC2 instance to avoid unnecessary charges.
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="Screenshot 2026-02-26 105238" src="https://github.com/user-attachments/assets/bb5e200c-2285-4959-8ce2-c852bbf6dad0" />
+
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+![i-022d7038315850988](https://github.com/user-attachments/assets/46683a98-8249-4c4c-b196-6a52b2294690)
+
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="Screenshot 2026-02-26 115442" src="https://github.com/user-attachments/assets/620bd7c9-ed11-4348-ac91-4ebf031816fe" />
 
 ---
 
