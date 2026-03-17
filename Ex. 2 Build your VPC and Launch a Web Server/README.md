@@ -103,7 +103,7 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="Screenshot 2026-02-13 083619" src="https://github.com/user-attachments/assets/a77d895c-f1a7-4669-9109-8c3a151a89f1" />
 
 ---
 
